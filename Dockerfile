@@ -1,9 +1,10 @@
 FROM ubuntu:16.04
 
 RUN apt-get update
-RUN apt-get install -y vim curl sudo
-RUN apt-get install -y git g++ python
-RUN apt-get install -y autoconf2.13
+RUN apt-get install -y vim curl unzip sudo markdown
+RUN apt-get install -y git apache2 apache2-dev
+RUN apt-get install -y autoconf2.13 python
+RUN apt-get install -y g++ libz-dev
 
 
 ADD *.sh /
