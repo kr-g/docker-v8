@@ -12,7 +12,7 @@ RUN chmod +x *.sh
 
 
 RUN /get-v8.sh /
-RUN /make-v8.sh /
+#RUN /make-v8.sh /
 
 #RUN mkdir -p /repo/v8/out/x64.release/lib.target
 #ADD libv8-static-x64.release.tar /repo/v8/out/x64.release/lib.target
