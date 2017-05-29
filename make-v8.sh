@@ -20,7 +20,5 @@ make $ARCH -j $NCPU library=shared snapshot=off
 ldconfig $BDIR/repo/v8/out/$ARCH/lib.target/
 
 # update static lib tar
-tar -cf /libv8-static-$ARCH.tar $BDIR/repo/v8/out/$ARCH/lib.target/*.so
-
-
+#tar -cf /libv8-static-$ARCH.tar $BDIR/repo/v8/out/$ARCH/lib.target/*.so
 
